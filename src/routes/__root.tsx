@@ -12,6 +12,8 @@ import { useEffect, type ReactNode } from "react";
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { Toaster } from "@/components/ui/sonner";
+import logoAsset from "@/assets/utkarsh-logo.png.asset.json";
+
 
 
 function NotFoundComponent() {
@@ -95,8 +97,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:title", content: "Utkarsh Path Lab — Pathology Lab in Ujjain" },
       { property: "og:description", content: "Pathology and diagnostic laboratory in Free Ganj, Madhav Nagar, Ujjain offering blood tests, health packages and home sample collection." },
       { name: "twitter:description", content: "Pathology and diagnostic laboratory in Free Ganj, Madhav Nagar, Ujjain offering blood tests, health packages and home sample collection." },
-      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/sbNITKj5EUb1bZmowDSEl7Ixj0t2/social-images/social-1785429789001-utkarshlogo_(2).webp" },
-      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/sbNITKj5EUb1bZmowDSEl7Ixj0t2/social-images/social-1785429789001-utkarshlogo_(2).webp" },
+      {
+        property: "og:image",
+        content: `https://utkarsh-care-connect.lovable.app${logoAsset.url}`,
+      },
+      {
+        name: "twitter:image",
+        content: `https://utkarsh-care-connect.lovable.app${logoAsset.url}`,
+      },
     ],
     links: [
       {
@@ -109,7 +117,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap",
       },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "icon", type: "image/png", href: logoAsset.url },
     ],
   }),
 
