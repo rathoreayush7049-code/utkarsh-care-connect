@@ -91,6 +91,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:locale", content: "en_IN" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "theme-color", content: "#0F6CBD" },
+      { property: "og:title", content: "Utkarsh Path Lab — Pathology Lab in Ujjain" },
+      { name: "twitter:title", content: "Utkarsh Path Lab — Pathology Lab in Ujjain" },
+      { property: "og:description", content: "Pathology and diagnostic laboratory in Free Ganj, Madhav Nagar, Ujjain offering blood tests, health packages and home sample collection." },
+      { name: "twitter:description", content: "Pathology and diagnostic laboratory in Free Ganj, Madhav Nagar, Ujjain offering blood tests, health packages and home sample collection." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/sbNITKj5EUb1bZmowDSEl7Ixj0t2/social-images/social-1785429789001-utkarshlogo_(2).webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/sbNITKj5EUb1bZmowDSEl7Ixj0t2/social-images/social-1785429789001-utkarshlogo_(2).webp" },
     ],
     links: [
       {
