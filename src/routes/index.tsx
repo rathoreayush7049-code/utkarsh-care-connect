@@ -13,6 +13,8 @@ import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
 import { MobileBar } from "@/components/site/MobileBar";
 import { business, faqs } from "@/lib/site-data";
+import logoAsset from "@/assets/utkarsh-logo.png.asset.json";
+
 
 const title = "Utkarsh Path Lab — Pathology Lab & Diagnostic Centre in Ujjain";
 const description =
@@ -36,6 +38,14 @@ export const Route = createFileRoute("/")({
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: title },
       { name: "twitter:description", content: description },
+      {
+        property: "og:image",
+        content: `https://utkarsh-care-connect.lovable.app${logoAsset.url}`,
+      },
+      {
+        name: "twitter:image",
+        content: `https://utkarsh-care-connect.lovable.app${logoAsset.url}`,
+      },
     ],
     links: [{ rel: "canonical", href: "/" }],
     scripts: [
