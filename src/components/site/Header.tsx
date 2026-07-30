@@ -21,12 +21,13 @@ export function Header() {
         scrolled ? "bg-background/90 shadow-soft backdrop-blur-xl" : "bg-background/60 backdrop-blur-md"
       }`}
     >
-      <div className="section-shell grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-3">
+      <div className="section-shell grid grid-cols-[auto_minmax(0,1fr)] items-center gap-4 py-3">
         <a href="#home" className="flex min-w-0 items-center gap-3">
           <Logo />
         </a>
 
-        <div className="flex items-center gap-2">
+        <div className="flex min-w-0 items-center justify-end gap-2">
+
           <nav aria-label="Main" className="hidden items-center gap-1 xl:flex">
             {navLinks.map((l) => (
               <a
