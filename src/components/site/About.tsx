@@ -13,7 +13,7 @@ const pillars = [
 
 /** Placeholders below must be confirmed by the lab before publishing. */
 const placeholders = [
-  { icon: UserRound, label: "Founder", value: "[Founder Name — to be confirmed]" },
+  { icon: UserRound, label: "Founder", value: "[Founder Name - Rahul Rathore]" },
   { icon: Microscope, label: "Consultant Pathologist", value: "[Dr. Name, MD Pathology — to be confirmed]" },
   { icon: Award, label: "Certifications", value: "[Accreditation details — to be verified]" },
   { icon: CheckCircle2, label: "Years of Experience", value: "[XX+ years — to be confirmed]" },
