@@ -14,9 +14,9 @@ const pillars = [
 /** Placeholders below must be confirmed by the lab before publishing. */
 const placeholders = [
   { icon: UserRound, label: "Founder", value: "[Founder Name - Rahul Rathore]" },
-  { icon: Microscope, label: "Consultant Pathologist", value: "[Dr. Name, MD Pathology — to be confirmed]" },
-  { icon: Award, label: "Certifications", value: "[Accreditation details — to be verified]" },
-  { icon: CheckCircle2, label: "Years of Experience", value: "[XX+ years — to be confirmed]" },
+  { icon: Microscope, label: "Consultant Pathologist", value: "[Dr.Ankit Gupta]" },
+  { icon: Award, label: "Certifications", value: "[ISO CERTIFIED ]" },
+  { icon: CheckCircle2, label: "Years of Experience", value: "[6+ YEAR EXPERIENCE — STARTS IN 2021]" },
 ];
 
 export function About() {
