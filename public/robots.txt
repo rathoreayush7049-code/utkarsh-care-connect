@@ -12,3 +12,5 @@ Allow: /
 
 User-agent: *
 Allow: /
+User-agent: ChatGPT-User
+Allow: /
