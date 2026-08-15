@@ -24,7 +24,7 @@ export const Route = createFileRoute("/privacy-policy")({
 
 function PrivacyPolicy() {
   return (
-    <LegalPage title="Privacy Policy" updated="[Date to be confirmed]">
+    <LegalPage title="Privacy Policy" updated="15 August 2026">
       <p>
         {business.name} respects the privacy of every patient. This policy explains what happens to
         the information you share through this website.

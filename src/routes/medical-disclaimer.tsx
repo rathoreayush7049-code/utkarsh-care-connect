@@ -24,7 +24,7 @@ export const Route = createFileRoute("/medical-disclaimer")({
 
 function Disclaimer() {
   return (
-    <LegalPage title="Medical Disclaimer" updated="[Date to be confirmed]">
+    <LegalPage title="Medical Disclaimer" updated="15 August 2026">
       <p>
         The content on this website is published by {business.name} for general awareness only.
       </p>
