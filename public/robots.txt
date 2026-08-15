@@ -10,7 +10,10 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
-User-agent: *
-Allow: /
 User-agent: ChatGPT-User
 Allow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://utkarsh-care-connect.lovable.app/sitemap.xml

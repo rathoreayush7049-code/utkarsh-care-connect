@@ -15,10 +15,10 @@ export const Route = createFileRoute("/medical-disclaimer")({
       { property: "og:title", content: title },
       { property: "og:description", content: description },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "/medical-disclaimer" },
+      { property: "og:url", content: "https://utkarsh-care-connect.lovable.app/medical-disclaimer" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
-    links: [{ rel: "canonical", href: "/medical-disclaimer" }],
+    links: [{ rel: "canonical", href: "https://utkarsh-care-connect.lovable.app/medical-disclaimer" }],
   }),
 });
 

@@ -34,7 +34,7 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: title },
       { property: "og:description", content: description },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "/" },
+      { property: "og:url", content: "https://utkarsh-care-connect.lovable.app/" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: title },
       { name: "twitter:description", content: description },
@@ -47,7 +47,7 @@ export const Route = createFileRoute("/")({
         content: `https://utkarsh-care-connect.lovable.app${logoAsset.url}`,
       },
     ],
-    links: [{ rel: "canonical", href: "/" }],
+    links: [{ rel: "canonical", href: "https://utkarsh-care-connect.lovable.app/" }],
     scripts: [
       {
         type: "application/ld+json",
@@ -58,7 +58,7 @@ export const Route = createFileRoute("/")({
               "@type": ["MedicalBusiness", "MedicalClinic", "LocalBusiness"],
               name: business.name,
               description,
-              url: "/",
+              url: "https://utkarsh-care-connect.lovable.app/",
               telephone: business.phones,
               address: {
                 "@type": "PostalAddress",
