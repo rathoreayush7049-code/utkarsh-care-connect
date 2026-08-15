@@ -24,7 +24,7 @@ export const Route = createFileRoute("/terms")({
 
 function Terms() {
   return (
-    <LegalPage title="Terms & Conditions" updated="[Date to be confirmed]">
+    <LegalPage title="Terms & Conditions" updated="15 August 2026">
       <p>
         By using this website or booking a test with {business.name}, you agree to the terms below.
       </p>
